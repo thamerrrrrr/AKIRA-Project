@@ -63,21 +63,13 @@ document.querySelector('.logo .list').classList.remove('d-none');
 document.querySelector('.collection .card').style.visibility = 'hidden';
 });
 document.querySelector('.list .close').addEventListener('click', function(){
-  document.querySelector('.logo .list').classList.add('d-none');
-  document.querySelector('.carousel-indicators .fresh ').classList.remove('position-fixed');
-  document.querySelector(' .carousel-indicators .Store ').classList.remove('position-fixed');
-  document.querySelector('.arrivals-swiper ').classList.remove('position-fixed');
-  document.querySelector('.clients-swiper').classList.remove('position-fixed');
-  document.querySelector('.blog-swiper ').classList.remove('position-fixed');
-  document.querySelector('.retroge-swiper ').classList.remove('position-fixed');
+ remove();
   document.querySelector(' .header .carousel-item.active').style.display = 'block';
   document.querySelector('.header .carousel-item').style.visibility = 'visible'; 
   document.querySelector('.collection .card').style.visibility = 'visible';
   document.querySelector('.nav-icons').classList.remove('d-none');
-  document.querySelector('.carousel-indicators .fresh ').classList.remove('position-fixed');
-  document.querySelector(' .carousel-indicators .Store ').classList.remove('position-fixed');
-  document.querySelector('.carousel-indicators .fresh ').setAttribute('style','background-color:red');
-  document.querySelector('.carousel-indicators .Store ').setAttribute('style','background-color:red');
+
+
 });
 
 
