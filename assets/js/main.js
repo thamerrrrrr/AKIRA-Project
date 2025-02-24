@@ -76,6 +76,8 @@ document.querySelector('.list .close').addEventListener('click', function(){
   document.querySelector('.nav-icons').classList.remove('d-none');
   document.querySelector('.carousel-indicators .fresh ').classList.remove('position-fixed');
   document.querySelector(' .carousel-indicators .Store ').classList.remove('position-fixed');
+  document.querySelector('.carousel-indicators .fresh ').setAttribute('style','background-color:red');
+  document.querySelector('.carousel-indicators .Store ').setAttribute('style','background-color:red');
 });
 
 
