@@ -63,11 +63,13 @@ document.querySelector('.logo .list').classList.remove('d-none');
 document.querySelector('.collection .card').style.visibility = 'hidden';
 });
 document.querySelector('.list .close').addEventListener('click', function(){
+  document.querySelector('.list ').classList.add('d-none');
  remove();
   document.querySelector(' .header .carousel-item.active').style.display = 'block';
   document.querySelector('.header .carousel-item').style.visibility = 'visible'; 
   document.querySelector('.collection .card').style.visibility = 'visible';
   document.querySelector('.nav-icons').classList.remove('d-none');
+ 
 
 
 });
