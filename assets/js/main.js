@@ -37,7 +37,7 @@
 window.onload=function() {
   add();
 }
-document.querySelector(' .alert .close').addEventListener('click',function(){
+document.querySelector('.alert .close').addEventListener('click',function(){
 document.querySelector('.alert').classList.add('d-none');
 remove();
 });
@@ -59,7 +59,7 @@ document.querySelector('.logo .list').classList.remove('d-none');
  add();
   document.querySelector('.nav-items').classList.add('d-none');
   document.querySelector('.nav-icons').classList.add('d-none');
-  document.querySelector('.header .carousel-item').style.visibility = 'hidden'; 
+  document.querySelector(' .header .carousel-item.active').style.display = 'none';
 document.querySelector('.collection .card').style.visibility = 'hidden';
 });
 document.querySelector('.list .close').addEventListener('click', function(){

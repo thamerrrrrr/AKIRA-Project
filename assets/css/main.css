@@ -678,6 +678,7 @@ color:white;
     .account .sign-in{
         width:37%;
     }
+}
 @media screen and (max-width:500px){
 .account .sign-in{
     width:60%;
@@ -709,9 +710,9 @@ color:white;
 .list .list-content ul li a{
     color:#181818;
 }
-.list .list-content ul li a:hover{
+.list .list-content ul li a :hover{
     color:var(--mainColor);
-    cursor: pointer;
+   
 }
 @keyframes  mov-list {
     0% {
