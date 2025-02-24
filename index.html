@@ -1,0 +1,1191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="./assets/css/main.css" />
+</head>
+<body>
+<nav class="navbar  navbar-expand-lg py-1">
+        <div class="container ">
+           
+            <div class="logo">
+          <a class="navbar-brand" href="#"><img src="./assets/img/navbar/AKIRA.png" alt="akira-img"></a>
+          <button class="navbar-toggler list-bt" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="list d-none" >
+            <div class="list-content h-100">
+              <p>Megamenu</p>
+              <hr />
+              <ul>
+                <li><a>Home</a></li>
+                <hr />
+                <li><a>Shop</a></li>
+                <hr />
+                <li><a>Blog</a></li>
+                <hr />
+                <li><a>Pages</a></li>
+                <hr/>
+                <li><a>Elementor</a></li>
+                <hr />
+                <li><a>Buy</a></li>
+                <hr/>
+
+
+
+
+
+              </ul>
+              <i class="fa-solid fa-xmark fa-sm close "></i>
+
+            </div>
+          </div>
+        </div>
+          <div class="collapse navbar-collapse nav-items" id="navbarNavDropdown">
+            <ul class="navbar-nav ">
+                <li class="nav-item dropdown">
+                    <a class="nav-link  home" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><strong>Home</strong></a>
+                  
+                  </li>
+                  
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle shop" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Shop</a>
+
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="shop.html">Shop1</a></li>
+                      <li><a class="dropdown-item" href="shop.html">Shop2</a></li>
+                      <li><a class="dropdown-item" href="shop.html">Shop3</a></li>
+                    </ul>
+                  </li>
+                  
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Blog</a>
+
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="blog.html">Blog1</a></li>
+                      <li><a class="dropdown-item" href="blog.html">Blog2</a></li>
+                      <li><a class="dropdown-item" href="blog.html">Blog3</a></li>
+                    </ul>
+                  </li>
+                  
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Pages</a>
+
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Page1</a></li>
+                      <li><a class="dropdown-item" href="#">Page2</a></li>
+                      <li><a class="dropdown-item" href="#">Page3</a></li>
+                    </ul>
+                  </li>
+                  
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Elementor Live</a>
+
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Elementor1</a></li>
+                      <li><a class="dropdown-item" href="#">Elementor2</a></li>
+                      <li><a class="dropdown-item" href="#">Elementor3</a></li>
+                    </ul>
+                  </li>
+                  
+                  <li class="nav-item dropdown">
+                    <a class="nav-link " href="#" role="button"  aria-expanded="false">Buy</a>
+                  </li>
+             </ul>
+            </div>
+             <div class=" nav-icons">
+                <ul class="d-flex gap-3 ">
+                   <li>
+                    <a href="#" class="yourAccount"> Your account</a>  
+                   </li>
+                   <li>
+                    <a href="#" class="text-decoration-none"><i class="fa-solid fa-magnifying-glass fa-sm"></i> </a>
+                   </li>
+                   <li>
+                    <a href="#" class="text-decoration-none"><i class="fa-regular fa-heart fa-sm heart"></i> </a>
+                   </li>
+                   <li>
+                    <a href="#" class="text-decoration-none " ><i class="fa-solid fa-cart-shopping fa-sm cart me-4"></i><span class="position-relative  price">$0.00</span></a>
+                   </li>
+                </ul>
+                </div>
+            </div>
+</nav>
+<header class="header py-5 mt-5">
+        <div class="container ">
+            <div class="row ">
+                <div id="carouselExampleIndicators" class="carousel slide col-lg-9">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active fresh" aria-current="true" aria-label="fresh"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Store" class="Store"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active position-relative">
+                        <img src="./assets/img/header/fresh.jpg" class="d-block w-70 img-fluid" alt="fresh-img">
+                        <div class="fresh-content" data-aos="fade-up"  data-aos-duration="3000" data-aos-anchor-placement="center-bottom">
+                          <p>Fresh. Heathy.</p>
+                          <span>Organic</span>
+                         <button>Shop Now</button>
+                        </div>
+                        
+                      </div>
+                      <div class="carousel-item position-relative">
+                        <img src="./assets/img/header/store.jpg" class="d-block w-70 img-fluid" alt="store-img">
+                        <div class="Store-content " data-aos="fade-up"  data-aos-duration="3000" data-aos-anchor-placement="center-bottom">
+                          <p>Organic</p>
+                          <span>Store</span>
+                         <button>Shop Now</button>
+                        </div>
+                      </div>
+                     
+                    </div>
+                   
+                  </div>
+                  <div class="organic-sale col-lg-3"> 
+                    <div>
+                        <img src="./assets/img/header/organic-arrivals.jpg" alt="organic-arrivals-img" class="elementor-animation-bob">
+                    </div>
+                    <div class="mt-5">
+                        <img src="./assets/img/header/sale.jpg" alt="sale-img">
+                    </div>
+                  </div>
+           
+ 
+</div>
+
+        </div>
+        
+</header>
+<main>
+        <section class="products-view">
+          <div class="container">
+            <div class="products text-center">
+              <span class="fst-italic text-black fs-6">Fresh From Our Farm</span>
+              <h1 class="mb-4">Our Products</h1>
+              <div class="icons">
+                <ul class="  text-black d-flex  justify-content-center gap-3  text-center" id="myTab" role="tablist">
+                  <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="ice-tab" data-bs-toggle="tab" data-bs-target="#ice-tab-pane" type="button" role="tab" aria-controls="ice-tab-pane" aria-selected="true">
+                      <div class="item-content">
+                      
+                      <svg xmlns="./assets/img/products/ice.svg" width="26" height="30" viewBox="0 0 26 30">
+                        <defs>
+                          </defs>
+                          <path d="M772.715,3281.24a0.48,0.48,0,0,0-.451.48l-0.171,7.95a0.516,0.516,0,0,1-.526.49h-0.011a0.519,0.519,0,0,1-.517-0.51l0.171-7.95a1.513,1.513,0,0,1,1.5-1.47h0.624a0.512,0.512,0,0,1,.527.5,0.52,0.52,0,0,1-.527.51h-0.624Zm13.911-.18a0.2,0.2,0,0,1,.2.19,0.527,0.527,0,0,0,1.054,0,1.221,1.221,0,0,0-1.252-1.19A0.5,0.5,0,1,0,786.626,3281.06Zm-11.235,18.45a0.52,0.52,0,0,0,.527-0.51v-6.24a1.684,1.684,0,0,0-3.365,0V3299a0.527,0.527,0,0,0,1.054,0v-6.24a0.629,0.629,0,0,1,1.257,0V3299A0.52,0.52,0,0,0,775.391,3299.51Zm5.022-2.87a0.528,0.528,0,0,0-1.054.04l0.056,1.29a1.627,1.627,0,0,1-.5,1.23,2.04,2.04,0,0,1-1.414.57h-0.62a0.518,0.518,0,0,0-.527.49,1.078,1.078,0,0,1-.6,1.11h-3.025a1.078,1.078,0,0,1-.6-1.11,0.517,0.517,0,0,0-.526-0.49h-0.621a2.04,2.04,0,0,1-1.414-.57,1.627,1.627,0,0,1-.5-1.23l0.743-17.12a1.917,1.917,0,0,1,1.915-1.84h5.043a1.917,1.917,0,0,1,1.915,1.84l0.036,0.82a0.528,0.528,0,0,0,1.053-.04l-0.036-.82a2.946,2.946,0,0,0-2.968-2.81h-5.043a2.953,2.953,0,0,0-2.968,2.81L768,3297.93a2.593,2.593,0,0,0,.793,1.96,3.079,3.079,0,0,0,2.175.89h0.15a1.8,1.8,0,0,0,1.6,1.6h3.025a1.794,1.794,0,0,0,1.6-1.6h0.15a3.079,3.079,0,0,0,2.175-.89,2.6,2.6,0,0,0,.794-1.96Zm-5.022,6.6a0.52,0.52,0,0,0-.527.51v2.64a0.616,0.616,0,0,1-.628.6,0.61,0.61,0,0,1-.629-0.6v-2.64a0.527,0.527,0,0,0-1.054,0v2.64a1.684,1.684,0,0,0,3.365,0v-2.64A0.52,0.52,0,0,0,775.391,3303.24Zm11.027-3.48-0.61.59a0.487,0.487,0,0,0,0,.71,0.567,0.567,0,0,0,.746,0l0.609-.59a0.485,0.485,0,0,0,0-.71A0.558,0.558,0,0,0,786.418,3299.76Zm1.718-3.82-0.609.58a0.485,0.485,0,0,0,0,.71,0.538,0.538,0,0,0,.745,0l0.61-.58a0.485,0.485,0,0,0,0-.71A0.539,0.539,0,0,0,788.136,3295.94Zm-3.223-.82a0.487,0.487,0,0,0,0-.71l-0.609-.58a0.539,0.539,0,0,0-.746,0,0.485,0.485,0,0,0,0,.71l0.609,0.58A0.539,0.539,0,0,0,784.913,3295.12Zm9.087-7.08a6.824,6.824,0,0,1-.6,2.8,0.3,0.3,0,0,1-.044.08l-6.377,16.75a0.537,0.537,0,0,1-.991,0l-6.376-16.75a0.335,0.335,0,0,1-.045-0.08,6.839,6.839,0,0,1-.6-2.8,7.163,7.163,0,0,1,3.979-6.33c-0.01-.11-0.016-0.21-0.016-0.32a3.554,3.554,0,0,1,7.1,0,3.117,3.117,0,0,1-.016.32A7.164,7.164,0,0,1,794,3288.04Zm-10.011-6.65a2.264,2.264,0,0,0,.054.49,0.146,0.146,0,0,1,0,.02,2.524,2.524,0,0,0,4.876,0,0.142,0.142,0,0,1,0-.02,2.264,2.264,0,0,0,.054-0.49A2.5,2.5,0,0,0,783.989,3281.39Zm8.161,9.76h-2.028v2.09a1.646,1.646,0,0,1-1.683,1.6,1.67,1.67,0,0,1-1.639-1.24,1.744,1.744,0,0,1-.324.03,1.648,1.648,0,0,1-1.683-1.61v-0.87h-3.971l5.664,14.87Zm0.8-3.11a6.15,6.15,0,0,0-3.2-5.32,3.624,3.624,0,0,1-6.529,0,6.151,6.151,0,0,0-3.2,5.32,5.855,5.855,0,0,0,.387,2.1h4.907a0.518,0.518,0,0,1,.527.5v1.38a0.616,0.616,0,0,0,.629.6,0.644,0.644,0,0,0,.439-0.17,0.556,0.556,0,0,1,.369-0.14,0.485,0.485,0,0,1,.2.04,0.5,0.5,0,0,1,.323.46v0.43a0.629,0.629,0,0,0,1.257,0v-2.6a0.518,0.518,0,0,1,.527-0.5h2.964A5.855,5.855,0,0,0,792.946,3288.04Zm-7.038,9.57-0.61-.58a0.538,0.538,0,0,0-.745,0,0.485,0.485,0,0,0,0,.71l0.609,0.58a0.539,0.539,0,0,0,.746,0A0.485,0.485,0,0,0,785.908,3297.61Z" transform="translate(-768 -3278)"></path>
+                        </svg>
+                        <h2 class="mt-3 ice">Ice Cream</h2>
+                      </div>
+                    </button>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="FruitTea-tab" data-bs-toggle="tab" data-bs-target="#FruitTea-tab-pane" type="button" role="tab" aria-controls="FruitTea-tab-pane" aria-selected="false">
+                      <div class="item-content">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="27.943" height="29.992" viewBox="0 0 191 205">
+                        <defs>
+                          </defs>
+                          <path d="M894.859,3235.68a3.309,3.309,0,0,1-3.271,3.34h-0.981a3.341,3.341,0,0,1,0-6.68h0.981A3.3,3.3,0,0,1,894.859,3235.68Zm8.7,152.17a3.3,3.3,0,0,1-3.271,3.34h-12.4a19.844,19.844,0,0,1-18.409-12.77H847.421a3.341,3.341,0,0,1,0-6.68H868.1c-0.008-.25-0.013-0.5-0.013-0.76v-63.52h-0.851a3.3,3.3,0,0,1-3.271-3.33v-16.76a3.3,3.3,0,0,1,3.271-3.34H957.5a3.3,3.3,0,0,1,3.271,3.34v16.76a3.3,3.3,0,0,1-3.271,3.33h-0.851v21.58a3.272,3.272,0,1,1-6.542,0v-21.58h-75.48v63.52a20.821,20.821,0,0,0,.543,3.84,13.316,13.316,0,0,0,12.713,9.69h12.4A3.308,3.308,0,0,1,903.557,3387.85Zm50.676-87.06v-10.08H870.508v10.08h83.725Zm-62.645-53.07h-0.981a3.341,3.341,0,0,0,0,6.68h0.981A3.341,3.341,0,0,0,891.588,3247.72Zm-91.244,64.83a0.314,0.314,0,0,0,.1.01,3.31,3.31,0,0,0,3.268-3.25l2.508-89.04h83.827a3.341,3.341,0,0,0,0-6.68H806.405l0.406-14.4a1.475,1.475,0,0,1,1.386-1.52h92.7a1.477,1.477,0,0,1,1.386,1.52l1.988,70.55a3.271,3.271,0,1,0,6.538-.19l-1.987-70.56A8.038,8.038,0,0,0,900.9,3191H808.2a8.034,8.034,0,0,0-7.925,7.99l-3.1,110.13A3.3,3.3,0,0,0,800.344,3312.55Zm37,32.33v23.89c0,15.01-11.964,27.22-26.672,27.22S784,3383.78,784,3368.77v-23.89c0-15.02,11.965-27.23,26.671-27.23h0C825.379,3317.65,837.344,3329.86,837.344,3344.88Zm-35.663,42.27a29.462,29.462,0,0,1,6.991-32.68c6.65-7.71,4.536-17.21-1.4-29.85a20.466,20.466,0,0,0-16.734,20.26v23.89A20.611,20.611,0,0,0,801.681,3387.15Zm29.122-42.27a20.486,20.486,0,0,0-16.263-20.17c5.043,11.42,8.138,23.81-1.107,34.34a3.1,3.1,0,0,1-.253.26,22.632,22.632,0,0,0-2.765,30,2.2,2.2,0,0,0,.257.01,20.367,20.367,0,0,0,20.131-20.55v-23.89h0Zm131.278,37.94a43.354,43.354,0,0,1-39.673,12.33,2.135,2.135,0,0,1-.248-0.05,3.374,3.374,0,0,1-1.034-.5,45.536,45.536,0,0,1,.064-74.71,3.239,3.239,0,0,1,3.648,0,44.943,44.943,0,0,1,17.585,24.15,43.646,43.646,0,0,1,29.158-4.38,3.3,3.3,0,0,1,2.58,2.63A45.577,45.577,0,0,1,962.081,3382.82Zm-24.257-25.55a38.56,38.56,0,0,0-14.811-30.5,38.843,38.843,0,0,0-3.27,58.14v-24.07a3.272,3.272,0,1,1,6.542,0v24.07A38.644,38.644,0,0,0,937.824,3357.27Zm30.285-11.43a37.16,37.16,0,0,0-24.194,5,46,46,0,0,1,.451,6.43,45.4,45.4,0,0,1-13.137,32.05,37.131,37.131,0,0,0,26.226-11.22A38.79,38.79,0,0,0,968.109,3345.84Zm-94.154-113.5a3.341,3.341,0,0,0,0,6.68h0.982a3.341,3.341,0,0,0,0-6.68h-0.982Z" transform="translate(-784 -3191)"></path>
+                        </svg>
+                        <h2 class="mt-3">Fruit Tea</h2>
+                      </div>
+                    </button>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="FruitJam-tab" data-bs-toggle="tab" data-bs-target="#FruitJam-tab-pane" type="button" role="tab" aria-controls="FruitJam-tab-pane" aria-selected="false">
+                      <div class="item-content">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="21" height="30" viewBox="0 0 21 30">
+                        <defs>
+                          </defs>
+                          <path d="M972.426,3302a0.48,0.48,0,0,1-.153.68,0.466,0.466,0,0,1-.275.08,0.525,0.525,0,0,1-.43-0.22l-0.078-.12a0.494,0.494,0,0,1,.154-0.69,0.518,0.518,0,0,1,.705.15Zm-1.351-1.59a0.51,0.51,0,0,0,.43.23,0.551,0.551,0,0,0,.275-0.08,0.493,0.493,0,0,0,.153-0.69l-0.077-.12a0.529,0.529,0,0,0-.706-0.15,0.493,0.493,0,0,0-.152.69Zm0.647,3.25a0.518,0.518,0,0,0-.7-0.15,0.493,0.493,0,0,0-.153.69l0.077,0.12a0.51,0.51,0,0,0,.43.23,0.551,0.551,0,0,0,.275-0.08,0.493,0.493,0,0,0,.153-0.69Zm-1.922-.18a0.518,0.518,0,0,0-.7-0.15,0.494,0.494,0,0,0-.153.69l0.078,0.12a0.524,0.524,0,0,0,.429.22,0.469,0.469,0,0,0,.276-0.08,0.48,0.48,0,0,0,.153-0.68Zm0.475-2.02a0.528,0.528,0,0,0-.7-0.15,0.494,0.494,0,0,0-.154.69l0.078,0.12a0.509,0.509,0,0,0,.43.23,0.553,0.553,0,0,0,.275-0.08,0.493,0.493,0,0,0,.153-0.69Zm-2.251.7a0.518,0.518,0,0,0-.705-0.15,0.494,0.494,0,0,0-.153.69l0.077,0.12a0.526,0.526,0,0,0,.43.22,0.539,0.539,0,0,0,.275-0.07,0.494,0.494,0,0,0,.154-0.69Zm8.986,1.15a0.5,0.5,0,1,0,0-.99h-0.146a0.5,0.5,0,1,0,0,.99h0.146Zm1.881-11.78h0.052a0.5,0.5,0,0,0,.457-0.54l-0.739-7.21a0.51,0.51,0,0,0-1.015.1l0.738,7.2A0.5,0.5,0,0,0,978.891,3291.53Zm1.691,11.78h0.146a0.5,0.5,0,1,0,0-.99h-0.146A0.5,0.5,0,1,0,980.582,3303.31Zm0-2.96h0.146a0.509,0.509,0,0,0,.51-0.5,0.5,0.5,0,0,0-.51-0.5h-0.146a0.5,0.5,0,0,0-.51.5A0.509,0.509,0,0,0,980.582,3300.35Zm3.409,2.62v1.32a1.679,1.679,0,0,1-1.7,1.66H975.98a0.5,0.5,0,1,1,0-.99h6.312a0.675,0.675,0,0,0,.679-0.67v-1.34a0.418,0.418,0,0,1,0-.05,1.053,1.053,0,0,0,0-.21,0.418,0.418,0,0,1,0-.05V3292.2a0.675,0.675,0,0,0-.679-0.67,0.5,0.5,0,0,1-.507-0.45l-0.793-7.73a1.553,1.553,0,0,0-1.473-1.49H971.6a1.554,1.554,0,0,0-1.473,1.49l-0.792,7.73a0.5,0.5,0,0,1-.508.45,0.674,0.674,0,0,0-.678.67,0.511,0.511,0,0,1-1.021,0,1.672,1.672,0,0,1,1.231-1.6l0.753-7.35a2.573,2.573,0,0,1,1.978-2.33v-3.42a0.5,0.5,0,0,1,.51-0.5h7.923a0.5,0.5,0,0,1,.51.5v3.42a2.574,2.574,0,0,1,1.979,2.33l0.753,7.35a1.672,1.672,0,0,1,1.23,1.6v10.42A1.859,1.859,0,0,1,983.991,3302.97ZM979.009,3278h-6.9v2.87h6.9V3278Zm-6.668,13.53a0.5,0.5,0,0,0,.507-0.45l0.739-7.2a0.511,0.511,0,0,0-1.016-.1l-0.738,7.21a0.5,0.5,0,0,0,.457.54h0.051Zm3.727,0.48v-8.18a0.511,0.511,0,0,0-1.021,0v8.18A0.511,0.511,0,0,0,976.068,3292.01Zm-2.269,5.12a8.776,8.776,0,0,1,1.165,4.67,7.476,7.476,0,0,1-1.747,4.79,0.417,0.417,0,0,1-.242.15,6.488,6.488,0,0,1-1.879.26,8.623,8.623,0,0,1-3.311-.69,9.117,9.117,0,0,1-3.873-2.98,3.651,3.651,0,0,1-.577-3.88,0.467,0.467,0,0,1-.057-0.23,2.524,2.524,0,0,1,.7-1.68,2.045,2.045,0,0,1-.635-1.58,0.5,0.5,0,0,1,.229-0.4,2.933,2.933,0,0,1,1.912-.45,2.8,2.8,0,0,1,1.214-1.51,0.515,0.515,0,0,1,.467-0.04,2.121,2.121,0,0,1,1.207,1.22,2.7,2.7,0,0,1,1.86.08,0.423,0.423,0,0,1,.191.15A3.819,3.819,0,0,1,973.8,3297.13Zm-8.711.78a1.751,1.751,0,0,0-.738.96,1.809,1.809,0,0,0,1.2-.25,0.521,0.521,0,0,1,.269-0.08,0.452,0.452,0,0,1,.248.07,0.481,0.481,0,0,1,.262.43,1.052,1.052,0,0,0,.468.89,1.6,1.6,0,0,0,.612-1.14,0.473,0.473,0,0,1,.234-0.39,0.521,0.521,0,0,1,.469-0.05,1.678,1.678,0,0,0,1.313-.07,1.055,1.055,0,0,0-.635-0.78,0.515,0.515,0,0,1-.3-0.42,0.489,0.489,0,0,1,.226-0.45,0.651,0.651,0,1,0-.466-0.71,0.5,0.5,0,0,1-.516.01,0.482,0.482,0,0,1-.263-0.43,1.05,1.05,0,0,0-.468-0.89,1.594,1.594,0,0,0-.612,1.13,0.477,0.477,0,0,1-.234.4,0.521,0.521,0,0,1-.469.05,1.678,1.678,0,0,0-1.313.07,1.056,1.056,0,0,0,.636.78,0.516,0.516,0,0,1,.3.42A0.487,0.487,0,0,1,965.088,3297.91Zm7.834-.27a2.934,2.934,0,0,0-2.5-1.64,2.671,2.671,0,0,1-.588,1,2.052,2.052,0,0,1,.635,1.58,0.5,0.5,0,0,1-.229.4,2.933,2.933,0,0,1-1.912.45,2.8,2.8,0,0,1-1.215,1.51,0.545,0.545,0,0,1-.466.04,2.121,2.121,0,0,1-1.207-1.22,2.936,2.936,0,0,1-1.173.11,2.8,2.8,0,0,0,.485,2.9c1.478,2.08,4.853,3.81,7.791,3.06C974.463,3303.53,974.247,3299.81,972.922,3297.64Z" transform="translate(-963 -3277)"></path>
+                        </svg>
+                        <h2 class="mt-3">Fruit Jam</h2>
+                      </div>
+                    </button>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="Juice-tab" data-bs-toggle="tab" data-bs-target="#Juice-tab-pane" type="button" role="tab" aria-controls="Juice-tab-pane" aria-selected="false">
+                      <div class="item-content">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24.928" height="29.99" viewBox="0 0 118.03 142">
+                        <defs>
+                          </defs>
+                          <path d="M1068.26,3273.1a2.206,2.206,0,0,1-3.14-.02,24.974,24.974,0,0,0-17.92-7.53,25.471,25.471,0,0,0,0,50.94,24.974,24.974,0,0,0,17.92-7.53,2.2,2.2,0,0,1,3.14-.01,2.236,2.236,0,0,1,.01,3.15,29.362,29.362,0,0,1-21.07,8.86,29.941,29.941,0,0,1,0-59.88,29.393,29.393,0,0,1,21.07,8.85A2.261,2.261,0,0,1,1068.26,3273.1Zm46.82,79.02a10.755,10.755,0,0,1-19.35,6.59,10.755,10.755,0,0,1-19.35-6.59V3308.7a2.238,2.238,0,0,1,1.71-2.18,6.414,6.414,0,0,0,.04-12.46,2.23,2.23,0,0,1-.79-0.34v-0.01h0a2,2,0,0,1-.38-0.33,2.269,2.269,0,0,1-.58-1.47h0v-0.01h0v-0.01h0v-0.01h0v-14.87a13.534,13.534,0,0,1,8.57-12.61v-10.79a2.23,2.23,0,0,1,2.21-2.24h17.13a2.232,2.232,0,0,1,2.22,2.24v10.79a13.525,13.525,0,0,1,8.56,12.61v14.86a2.229,2.229,0,0,1-1.7,2.18,6.414,6.414,0,0,0,0,12.47,2.229,2.229,0,0,1,1.7,2.18v5.39a2.215,2.215,0,1,1-4.43,0v-3.78a10.907,10.907,0,0,1,0-20.05v-13.25a9.016,9.016,0,0,0-8.96-9.05h-11.9a9.016,9.016,0,0,0-8.96,9.05v12.63h17.14a2.235,2.235,0,0,1,0,4.47h-12.47a10.863,10.863,0,0,1,1.94,6.18,10.985,10.985,0,0,1-6.61,10.02v11.04h22.22a2.235,2.235,0,0,1,0,4.47h-22.22v26.3a6.341,6.341,0,0,0,12.46,1.73,2.212,2.212,0,0,1,2.13-1.63h0.64a2.212,2.212,0,0,1,2.13,1.63,6.341,6.341,0,0,0,12.46-1.73A2.22,2.22,0,1,1,1115.08,3352.12Zm-25.7-88.62c0.13-.01.27-0.01,0.4-0.01h11.9c0.13,0,.27,0,0.4.01v-7.65h-4.13v1.6a2.22,2.22,0,1,1-4.44,0v-1.6h-4.13v7.65h0Zm-18.76,83.99a2.226,2.226,0,0,1-2.22,2.24h-61.18a2.226,2.226,0,0,1-2.22-2.24V3234.55a2.232,2.232,0,0,1,2.22-2.24h13.77v-9.08a2.23,2.23,0,0,1,2.22-2.23h16a2.221,2.221,0,0,1,2.21,2.23v9.08h45.77a2.239,2.239,0,0,1,2.22,2.24v8.56a2.22,2.22,0,1,1-4.44,0v-6.33h-75.54v108.48h58.97A2.224,2.224,0,0,1,1070.62,3347.49Zm-45.19-115.18h11.56v-6.84h-3.57v1.35a2.215,2.215,0,1,1-4.43,0v-1.35h-3.56v6.84Zm22.08,56.47h-0.61a2.235,2.235,0,0,0,0,4.47h0.61A2.235,2.235,0,0,0,1047.51,3288.78Zm55.8-1.5a2.224,2.224,0,0,0,2.22-2.23v-6.01a6.762,6.762,0,0,0-6.73-6.78,2.235,2.235,0,0,0,0,4.47,2.309,2.309,0,0,1,2.3,2.31v6.01A2.221,2.221,0,0,0,1103.31,3287.28Zm18.64,52.59a10.168,10.168,0,0,1-18,.34c-3.37-6.06.63-10.75,4.16-14.89,1.02-1.19,2.07-2.42,2.94-3.66a2.213,2.213,0,0,1,3.62,0c0.87,1.24,1.92,2.47,2.93,3.66C1121.05,3329.36,1124.96,3333.94,1121.95,3339.87Zm-7.71-11.63c-0.46-.54-0.92-1.09-1.38-1.64-0.46.56-.93,1.1-1.39,1.64-3.52,4.13-5.42,6.61-3.66,9.79a5.764,5.764,0,0,0,10.2-.2C1119.58,3334.73,1117.7,3332.29,1114.24,3328.24Zm-49.3-47.39a20.7,20.7,0,0,1,0,20.34l-0.06.12a1.48,1.48,0,0,1-.08.13,20.305,20.305,0,0,1-35.19,0,0.567,0.567,0,0,1-.08-0.13c-0.02-.04-0.05-0.08-0.07-0.12a20.7,20.7,0,0,1,0-20.34c0.02-.04.05-0.08,0.07-0.12a0.567,0.567,0,0,1,.08-0.13,20.305,20.305,0,0,1,35.19,0,1.48,1.48,0,0,1,.08.13Zm-1.76,10.17a15.929,15.929,0,0,0-1.17-6.04l-7.4,4.3a2.191,2.191,0,0,1-3.02-.81,2.246,2.246,0,0,1,.81-3.06l7.39-4.3a15.92,15.92,0,0,0-10.37-6.05v8.62a2.215,2.215,0,1,1-4.43,0v-8.62a15.966,15.966,0,0,0-10.38,6.05l7.4,4.3a2.255,2.255,0,0,1,.81,3.06,2.2,2.2,0,0,1-3.03.81l-7.4-4.3a16.3,16.3,0,0,0,0,12.08l7.4-4.3a2.2,2.2,0,0,1,3.03.81,2.255,2.255,0,0,1-.81,3.06l-7.4,4.3a15.966,15.966,0,0,0,10.38,6.05v-8.62a2.215,2.215,0,1,1,4.43,0v8.62a15.92,15.92,0,0,0,10.37-6.05l-7.39-4.3a2.246,2.246,0,0,1-.81-3.06,2.191,2.191,0,0,1,3.02-.81l7.4,4.3A15.929,15.929,0,0,0,1063.18,3291.02Z" transform="translate(-1005 -3221)"></path>
+                        </svg>
+                      <h2 class="mt-3">Juice</h2>
+                    </div>
+                    </button>
+                   
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="Powder-tab" data-bs-toggle="tab" data-bs-target="#Powder-tab-pane" type="button" role="tab" aria-controls="Powder-tab-pane" aria-selected="false" >
+                      <div class="item-content" >
+                      <svg xmlns="http://www.w3.org/2000/svg" width="28.888" height="29.992" viewBox="0 0 157 163">
+                        <defs>
+                          </defs>
+                          <path d="M1113.32,3342.48a3.016,3.016,0,0,1-3.06,2.97h-0.92a2.976,2.976,0,1,1,0-5.95h0.92A3.018,3.018,0,0,1,1113.32,3342.48Zm-3.06-26.24h-0.92a2.976,2.976,0,1,0,0,5.95h0.92A2.976,2.976,0,1,0,1110.26,3316.24Zm-20.48,17.58h0.92a2.976,2.976,0,1,0,0-5.95h-0.92A2.976,2.976,0,1,0,1089.78,3333.82Zm5.74-11.63h0.92a2.976,2.976,0,1,0,0-5.95h-0.92A2.976,2.976,0,1,0,1095.52,3322.19Zm-4.82-17.58h-0.92a2.976,2.976,0,1,0,0,5.95h0.92A2.976,2.976,0,1,0,1090.7,3304.61Zm28.95,54.23a3.016,3.016,0,0,1-3.06,2.97h-49.53a3.016,3.016,0,0,1-3.06-2.97V3284.7c0-.12.01-0.23,0.02-0.35l8.65-70.73a3.023,3.023,0,0,1,3.03-2.62h89.11a3.024,3.024,0,0,1,3.04,2.62l2.38,19.31a2.988,2.988,0,0,1-2.68,3.3,3.025,3.025,0,0,1-3.39-2.59l-2.06-16.69h-29.95v30.79a2.958,2.958,0,0,1-1.44,2.52,3.147,3.147,0,0,1-2.95.16l-9.74-4.57-9.73,4.57a3.169,3.169,0,0,1-2.96-.16,2.958,2.958,0,0,1-1.43-2.52v-30.79h-25.48l-8.3,67.92v71h46.47A3.016,3.016,0,0,1,1119.65,3358.84Zm-9.63-115.83,6.68-3.14a3.147,3.147,0,0,1,2.65,0l6.68,3.14v-26.06h-16.01v26.06Zm66.91,26.39a2.935,2.935,0,0,0,.97,4.1,3.132,3.132,0,0,0,4.22-.94c4.26-6.63.5-12.16-2.25-16.19-2.85-4.18-4.24-6.52-2.16-9.75a2.937,2.937,0,0,0-.97-4.1,3.12,3.12,0,0,0-4.22.95c-4.27,6.63-.5,12.15,2.25,16.19C1177.62,3263.84,1179.01,3266.17,1176.93,3269.4Zm-11.78,4.1a3.132,3.132,0,0,0,4.22-.94c4.27-6.63.5-12.16-2.25-16.19-2.85-4.18-4.24-6.52-2.16-9.75a2.937,2.937,0,0,0-.97-4.1,3.12,3.12,0,0,0-4.22.95c-4.27,6.63-.5,12.15,2.25,16.19,2.85,4.18,4.24,6.51,2.16,9.74A2.935,2.935,0,0,0,1165.15,3273.5Zm21.81,20.79h-0.92a2.971,2.971,0,1,0,0,5.94h0.92A2.971,2.971,0,1,0,1186.96,3294.29Zm-15.56-3.48h-0.92a2.971,2.971,0,1,0,0,5.94h0.92A2.971,2.971,0,1,0,1171.4,3290.81Zm31.24,37.34a3.014,3.014,0,0,0-3.05,2.97c0,12.74-10.65,23.09-23.75,23.09a2.976,2.976,0,1,0,0,5.95c16.47,0,29.86-13.02,29.86-29.04A3.016,3.016,0,0,0,1202.64,3328.15Zm18.36-19.9v24.13c0,22.95-19.2,41.62-42.79,41.62h-14.53c-23.59,0-42.79-18.67-42.79-41.62v-24.13a3.016,3.016,0,0,1,3.06-2.97h3.92c5.25-14.95,22.91-25.58,43.07-25.58s37.83,10.63,43.08,25.58h3.92A3.016,3.016,0,0,1,1221,3308.25Zm-86.58-2.97h73.04c-5.21-11.57-19.84-19.63-36.52-19.63S1139.64,3293.71,1134.42,3305.28Zm80.46,5.94h-87.87v21.16c0,19.67,16.45,35.67,36.67,35.67h14.53c20.22,0,36.67-16,36.67-35.67v-21.16h0Zm-119.36,34.23h0.92a2.976,2.976,0,1,0,0-5.95h-0.92A2.976,2.976,0,1,0,1095.52,3345.45Zm60.33-51.16h-0.92a2.971,2.971,0,1,0,0,5.94h0.92A2.971,2.971,0,1,0,1155.85,3294.29Zm-53.67,39.53a2.976,2.976,0,1,0,0-5.95h-0.92a2.976,2.976,0,1,0,0,5.95h0.92Zm-19.56-17.58h-0.92a2.976,2.976,0,1,0,0,5.95h0.92A2.976,2.976,0,1,0,1082.62,3316.24Zm0,23.26h-0.92a2.976,2.976,0,1,0,0,5.95h0.92A2.976,2.976,0,1,0,1082.62,3339.5Z" transform="translate(-1064 -3211)"></path>
+                        </svg>
+                      <h2 class="mt-3">Powder</h2>
+                    </div>
+                    </button>
+                   
+                  </li>
+                </ul>
+                <div class="tab-content" id="myTabContent">
+                  <div class="tab-pane fade show active " id="ice-tab-pane" role="tabpanel" aria-labelledby="ice-tab" tabindex="0">
+                    <div class="ice-items d-flex gap-1">
+                    <div class="item">
+                      <img src="./assets/img/products/ice/nulla-eget.jpg" class="img-fluid" alt="ice">
+                      <p class="mt-2">Nulla Eget</p>
+                      <span class="type">Accessories</span>
+                      <div class="stars">
+                        <i class="fa-regular fa-star fa-sm "></i>
+                        <i class="fa-regular fa-star fa-sm"></i>
+                        <i class="fa-regular fa-star fa-sm"></i>
+                        <i class="fa-regular fa-star fa-sm"></i>
+                        <i class="fa-regular fa-star fa-sm"></i>
+                      </div>
+                      <span class="text-decoration-line-through text-body-tertiary">$59.00</span>
+                      <span class="text-danger">$47.20</span>
+          
+                    </div>
+                    <div class="item">
+                      <img src="./assets/img/products/ice/Morbi mollis.jpg" class="img-fluid" alt="ice">
+                      <p class="mt-2">Morbi mollis</p>
+                      <span class="type">Clothes</span>
+                      <div class="stars">
+                        <i class="fa-solid fa-star fa-sm"></i>
+                        <i class="fa-solid fa-star fa-sm"></i>
+                        <i class="fa-solid fa-star fa-sm"></i>
+                        <i class="fa-solid fa-star fa-sm"></i>
+                        <i class="fa-solid fa-star fa-sm"></i>
+                      </div>
+                      
+                      <span class="text-danger">$48.50</span>
+          
+                    </div>
+                    <div class="item">
+                      <img src="./assets/img/products/ice/quisque-ornare.jpg" class="img-fluid" alt="ice">
+                      <p class="mt-2">Quisque ornare</p>
+                      <span class="type">Shop</span>
+                      <div class="stars">
+                        <i class="fa-regular fa-star fa-sm "></i>
+                        <i class="fa-regular fa-star fa-sm"></i>
+                        <i class="fa-regular fa-star fa-sm"></i>
+                        <i class="fa-regular fa-star fa-sm"></i>
+                        <i class="fa-regular fa-star fa-sm"></i>
+                      </div>
+                   
+                      <span class="text-danger">$35.80</span>
+          
+                    </div>
+                    <div class="item">
+                      <img src="./assets/img/products/ice/susdisse-potenti.jpg" class="img-fluid" alt="ice">
+                      <p class="mt-2">Susdisse potenti</p>
+                      <span class="type">Stationery</span>
+                      <div class="stars">
+                        <i class="fa-regular fa-star fa-sm "></i>
+                        <i class="fa-regular fa-star fa-sm"></i>
+                        <i class="fa-regular fa-star fa-sm"></i>
+                        <i class="fa-regular fa-star fa-sm"></i>
+                        <i class="fa-regular fa-star fa-sm"></i>
+                      </div>
+                      <span class="text-danger">$58.50</span>
+                    </div>
+                    </div>
+                  </div>
+                  <div class="tab-pane fade" id="FruitTea-tab-pane" role="tabpanel" aria-labelledby="FruitTea-tab" tabindex="0">
+                    <div class= "FruitTea-items d-flex gap-1">
+                      <div class="item">
+                        <img src="./assets/img/products/fruit-tea/donec-magna-mi.jpg" class="img-fluid" alt="tea">
+                        <p class="mt-2">Donec Magna Mi</p>
+                        <span class="type">Art</span>
+                        <div class="stars">
+                          <i class="fa-regular fa-star fa-sm "></i>
+                          <i class="fa-regular fa-star fa-sm"></i>
+                          <i class="fa-regular fa-star fa-sm"></i>
+                          <i class="fa-regular fa-star fa-sm"></i>
+                          <i class="fa-regular fa-star fa-sm"></i>
+                        </div>
+                        <span class="text-decoration-line-through text-body-tertiary">$60.00</span>
+                        <span class="text-danger">$57.20</span>
+            
+                      </div>
+                      <div class="item">
+                        <img src="./assets/img/products/fruit-tea/ut-lobortis-massa.jpg" class="img-fluid" alt="tea">
+                        <p class="mt-2">Ut Lobortis Massa</p>
+                        <span class="type">Stationery</span>
+                        <div class="stars">
+                          <i class="fa-regular fa-star fa-sm "></i>
+                          <i class="fa-regular fa-star fa-sm"></i>
+                          <i class="fa-regular fa-star fa-sm"></i>
+                          <i class="fa-regular fa-star fa-sm"></i>
+                          <i class="fa-regular fa-star fa-sm"></i>
+                        </div>
+                        
+                        <span class="text-danger">$48.50</span>
+            
+                      </div>
+                      <div class="item">
+                        <img src="./assets/img/products/fruit-tea/vestibulum-ante.jpg" class="img-fluid" alt="tea">
+                        <p class="mt-2">vestibulum Ante</p>
+                        <span class="type">Accessories</span>
+                        <div class="stars">
+                          <i class="fa-regular fa-star fa-sm "></i>
+                          <i class="fa-regular fa-star fa-sm"></i>
+                          <i class="fa-regular fa-star fa-sm"></i>
+                          <i class="fa-regular fa-star fa-sm"></i>
+                          <i class="fa-regular fa-star fa-sm"></i>
+                        </div>
+                     
+                        <span class="text-danger">$35.80</span>
+            
+                      </div>
+                      <div class="item">
+                        <img src="./assets/img/products/fruit-tea/vestibulum-non-mi.jpg" class="img-fluid" alt="tea">
+                        <p class="mt-2">vestibulum Non Mi</p>
+                        <span class="type">Stationery</span>
+                        <div class="stars">
+                        <i class="fa-solid fa-star fa-sm"></i>
+                        <i class="fa-solid fa-star fa-sm"></i>
+                        <i class="fa-solid fa-star fa-sm"></i>
+                        <i class="fa-solid fa-star fa-sm"></i>
+                        <i class="fa-solid fa-star fa-sm"></i>
+                        </div>
+                        <span class="text-danger">$58.50</span>
+                      </div>
+                      </div>
+                  </div>
+                  <div class="tab-pane fade" id="FruitJam-tab-pane" role="tabpanel" aria-labelledby="FruitJam-tab" tabindex="0">
+                    <div class= "FruitJam-items d-flex gap-1">
+                      <div class="item">
+                        <img src="./assets/img/products/fruit-jam/tesque-nunc-leo.jpg" class="img-fluid" alt="jam">
+                        <p class="mt-2">Tesque Nunc Leo</p>
+                        <span class="type">Clothes</span>
+                        <div class="stars">
+                          <i class="fa-solid fa-star fa-sm"></i>
+                          <i class="fa-solid fa-star fa-sm"></i>
+                          <i class="fa-solid fa-star fa-sm"></i>
+                          <i class="fa-solid fa-star fa-sm"></i>
+                          <i class="fa-solid fa-star fa-sm"></i>
+                        </div>
+                        <span class="text-decoration-line-through text-body-tertiary">$59.00</span>
+                        <span class="text-danger">$47.20</span>
+            
+                      </div>
+                      <div class="item">
+                        <img src="./assets/img/products/fruit-jam/sellus-quam-augue.jpg" class="img-fluid" alt="jam">
+                        <p class="mt-2">Sellus Quam Augue</p>
+                        <span class="type">Clothes</span>
+                        <div class="stars">
+                          <i class="fa-regular fa-star fa-sm "></i>
+                          <i class="fa-regular fa-star fa-sm"></i>
+                          <i class="fa-regular fa-star fa-sm"></i>
+                          <i class="fa-regular fa-star fa-sm"></i>
+                          <i class="fa-regular fa-star fa-sm"></i>
+                        </div>
+                        
+                        <span class="text-danger">$48.50</span>
+            
+                      </div>
+                      <div class="item">
+                        <img src="./assets/img/products/fruit-jam/nullam-feugiat.jpg" class="img-fluid" alt="jam">
+                        <p class="mt-2">Nullam Feugiat</p>
+                        <span class="type">Home Accessories</span>
+                        <div class="stars">
+                          <i class="fa-regular fa-star fa-sm "></i>
+                          <i class="fa-regular fa-star fa-sm"></i>
+                          <i class="fa-regular fa-star fa-sm"></i>
+                          <i class="fa-regular fa-star fa-sm"></i>
+                          <i class="fa-regular fa-star fa-sm"></i>
+                        </div>
+                     
+                        <span class="text-danger">$35.80</span>
+            
+                      </div>
+                      <div class="item">
+                        <img src="./assets/img/products/fruit-jam/vivamus-nunc.jpg" class="img-fluid" alt="jam">
+                        <p class="mt-2">Vivamus Nunc</p>
+                        <span class="type">Stationery</span>
+                        <div class="stars">
+                          <i class="fa-regular fa-star fa-sm "></i>
+                          <i class="fa-regular fa-star fa-sm"></i>
+                          <i class="fa-regular fa-star fa-sm"></i>
+                          <i class="fa-regular fa-star fa-sm"></i>
+                          <i class="fa-regular fa-star fa-sm"></i>
+                        </div>
+                        <span class="text-danger">$58.50</span>
+                      </div>
+                      </div>
+                  </div>
+                  <div class="tab-pane fade" id="Juice-tab-pane" role="tabpanel" aria-labelledby="Juice-tab" tabindex="0">
+                    <div class= "Juice-items d-flex gap-1">
+                      <div class="item">
+                        <img src="./assets/img/products//juice/nullam-feugiat.jpg "class="img-fluid" alt="juice">
+                        <p class="mt-2">Nullam Feugiat</p>
+                        <span class="type">Home Accessories</span>
+                        <div class="stars">
+                          <i class="fa-regular fa-star fa-sm "></i>
+                          <i class="fa-regular fa-star fa-sm"></i>
+                          <i class="fa-regular fa-star fa-sm"></i>
+                          <i class="fa-regular fa-star fa-sm"></i>
+                          <i class="fa-regular fa-star fa-sm"></i>
+                        </div>
+                        <span class="text-decoration-line-through text-body-tertiary">$59.00</span>
+                        <span class="text-danger">$47.20</span>
+            
+                      </div>
+                      <div class="item">
+                        <img src="./assets/img/products/juice/lentesque-sem.jpg" class="img-fluid" alt="juice">
+                        <p class="mt-2">Lentesque Sem</p>
+                        <span class="type">Stationery</span>
+                        <div class="stars">
+                          <i class="fa-regular fa-star fa-sm "></i>
+                          <i class="fa-regular fa-star fa-sm"></i>
+                          <i class="fa-regular fa-star fa-sm"></i>
+                          <i class="fa-regular fa-star fa-sm"></i>
+                          <i class="fa-regular fa-star fa-sm"></i>
+                        </div>
+                        
+                        <span class="text-danger">$48.50</span>
+            
+                      </div>
+                      <div class="item">
+                        <img src="./assets/img/products/juice/ut-lobortis-massa.jpg" class="img-fluid" alt="juice">
+                        <p class="mt-2">Ut Lobortis Massa</p>
+                        <span class="type">Stationery</span>
+                        <div class="stars">
+                          <i class="fa-regular fa-star fa-sm "></i>
+                          <i class="fa-regular fa-star fa-sm"></i>
+                          <i class="fa-regular fa-star fa-sm"></i>
+                          <i class="fa-regular fa-star fa-sm"></i>
+                          <i class="fa-regular fa-star fa-sm"></i>
+                        </div>
+                     
+                        <span class="text-danger">$35.80</span>
+            
+                      </div>
+                      <div class="item">
+                        <img src="./assets/img/products/juice/susdisse-potenti.jpg" class="img-fluid" alt="juice">
+                        <p class="mt-2">Susdisse potenti</p>
+                        <span class="type">Stationery</span>
+                        <div class="stars">
+                          <i class="fa-solid fa-star fa-sm"></i>
+                          <i class="fa-solid fa-star fa-sm"></i>
+                          <i class="fa-solid fa-star fa-sm"></i>
+                          <i class="fa-solid fa-star fa-sm"></i>
+                          <i class="fa-solid fa-star fa-sm"></i>
+                        </div>
+                        <span class="text-danger">$58.50</span>
+                      </div>
+                      </div>
+                  </div>
+                  <div class="tab-pane fade" id="Powder-tab-pane" role="tabpanel" aria-labelledby="Powder-tab" tabindex="0">
+                    <div class= "Powder-items d-flex gap-1">
+                      <div class="item">
+                        <img src="./assets/img/products/powder/convallis-imperdiet.jpg" class="img-fluid" alt="powder">
+                        <p class="mt-2">Convallis Imperdiet</p>
+                        <span class="type">Clothes</span>
+                        <div class="stars">
+                          <i class="fa-regular fa-star fa-sm "></i>
+                          <i class="fa-regular fa-star fa-sm"></i>
+                          <i class="fa-regular fa-star fa-sm"></i>
+                          <i class="fa-regular fa-star fa-sm"></i>
+                          <i class="fa-regular fa-star fa-sm"></i>
+                        </div>
+                        <span class="text-decoration-line-through text-body-tertiary">$59.00</span>
+                        <span class="text-danger">$47.20</span>
+            
+                      </div>
+                      <div class="item">
+                        <img src="./assets/img/products/powder/cras-sit-amet.jpg" class="img-fluid" alt="powder">
+                        <p class="mt-2">Cras Sit Amet</p>
+                        <span class="type">Clothes</span>
+                        <div class="stars">
+                          <i class="fa-regular fa-star fa-sm "></i>
+                          <i class="fa-regular fa-star fa-sm"></i>
+                          <i class="fa-regular fa-star fa-sm"></i>
+                          <i class="fa-regular fa-star fa-sm"></i>
+                          <i class="fa-regular fa-star fa-sm"></i>
+                        </div>
+                        
+                        <span class="text-danger">$48.50</span>
+            
+                      </div>
+                      <div class="item">
+                        <img src="./assets/img/products/powder/interdum-et-males.jpg" class="img-fluid" alt="powder">
+                        <p class="mt-2">Interdum Et Males</p>
+                        <span class="type">Clothes</span>
+                        <div class="stars">
+                        <i class="fa-solid fa-star fa-sm"></i>
+                        <i class="fa-solid fa-star fa-sm"></i>
+                        <i class="fa-solid fa-star fa-sm"></i>
+                        <i class="fa-solid fa-star fa-sm"></i>
+                        <i class="fa-solid fa-star fa-sm"></i>
+                        </div>
+                     
+                        <span class="text-danger">$35.80</span>
+            
+                      </div>
+                      <div class="item">
+                        <img src="./assets/img/products/powder/maecenas-pretium.jpg" class="img-fluid" alt="powder">
+                        <p class="mt-2">Maecenas Pretium</p>
+                        <span class="type">Stationery</span>
+                        <div class="stars">
+                          <i class="fa-regular fa-star fa-sm "></i>
+                          <i class="fa-regular fa-star fa-sm"></i>
+                          <i class="fa-regular fa-star fa-sm"></i>
+                          <i class="fa-regular fa-star fa-sm"></i>
+                          <i class="fa-regular fa-star fa-sm"></i>
+                        </div>
+                        <span class="text-danger">$58.50</span>
+                      </div>
+                      </div>
+                  </div>
+
+                  
+                </div>
+           
+              </div>
+            </div>
+          </div>
+          
+        </section>
+        <section class="collection py-5 ">
+      <div class="card collection-content">
+        <img src="./assets/img/collection/collection.png" class="card-img" alt="collection-img">
+        <div class="card-img-overlay d-flex flex-column justify-content-center align-items-end ">
+          <span class="fs-6">2024 COLLECTION</span>
+          <p class="fs-4">All you need is right here</p>
+          <button w-50>discover now !<span class="px-2"><i class="fa-solid fa-arrow-right fa-sm  "></i></span></button>
+        </div>
+      </div>
+        
+    
+        </section>
+
+        <section class="arrivals vh-100 mt-5 mb-5 ">
+          <div class="container h-100 text-center d-flex flex-column gap-1">
+            <div class="arrivals-content">
+            <span class="fs-6">Fresh From Our Farm</span>
+            <p class="fs-1 text-black">New Arrivals</p>
+          </div>
+              <!-- Swiper -->
+  <div class=" arrivals-swiper swiper mySwiper h-100">
+    <div class="swiper-wrapper h-100">
+     
+
+      <div class="swiper-slide">
+        <div class="ice-items d-flex ">
+          <div class="item position-relative">
+           
+            <img src="./assets/img/products/ice/nulla-eget.jpg" class="img-fluid" alt="ice">
+            <p class="mt-2">Nulla Eget</p>
+            <span class="type">Accessories</span>
+            <div class="stars">
+              <i class="fa-regular fa-star fa-sm "></i>
+              <i class="fa-regular fa-star fa-sm"></i>
+              <i class="fa-regular fa-star fa-sm"></i>
+              <i class="fa-regular fa-star fa-sm"></i>
+              <i class="fa-regular fa-star fa-sm"></i>
+            </div>
+            <span class="text-decoration-line-through text-body-tertiary">$59.00</span>
+            <span class="text-danger">$47.20</span>
+          
+           
+              
+          </div>
+          <div class="item">
+            <img src="./assets/img/products/ice/Morbi mollis.jpg" class="img-fluid" alt="ice">
+            <p class="mt-2">Morbi mollis</p>
+            <span class="type">Clothes</span>
+            <div class="stars">
+              <i class="fa-solid fa-star fa-sm"></i>
+              <i class="fa-solid fa-star fa-sm"></i>
+              <i class="fa-solid fa-star fa-sm"></i>
+              <i class="fa-solid fa-star fa-sm"></i>
+              <i class="fa-solid fa-star fa-sm"></i>
+            </div>
+            
+            <span class="text-danger">$48.50</span>
+
+          </div>
+          <div class="item">
+            <img src="./assets/img/products/ice/quisque-ornare.jpg" class="img-fluid" alt="ice">
+            <p class="mt-2">Quisque ornare</p>
+            <span class="type">Shop</span>
+            <div class="stars">
+              <i class="fa-regular fa-star fa-sm "></i>
+              <i class="fa-regular fa-star fa-sm"></i>
+              <i class="fa-regular fa-star fa-sm"></i>
+              <i class="fa-regular fa-star fa-sm"></i>
+              <i class="fa-regular fa-star fa-sm"></i>
+            </div>
+         
+            <span class="text-danger">$35.80</span>
+
+          </div>
+          <div class="item">
+            <img src="./assets/img/products/ice/susdisse-potenti.jpg" class="img-fluid" alt="ice">
+            <p class="mt-2">Susdisse potenti</p>
+            <span class="type">Stationery</span>
+            <div class="stars">
+              <i class="fa-regular fa-star fa-sm "></i>
+              <i class="fa-regular fa-star fa-sm"></i>
+              <i class="fa-regular fa-star fa-sm"></i>
+              <i class="fa-regular fa-star fa-sm"></i>
+              <i class="fa-regular fa-star fa-sm"></i>
+            </div>
+            <span class="text-danger">$58.50</span>
+          </div>
+          </div>
+        </div>
+      
+      <div class="swiper-slide">
+        <div class= "FruitTea-items d-flex gap-1">
+          <div class="item">
+            <img src="./assets/img/products/fruit-tea/donec-magna-mi.jpg" class="img-fluid" alt="tea">
+            <p class="mt-2">Donec Magna Mi</p>
+            <span class="type">Art</span>
+            <div class="stars">
+              <i class="fa-regular fa-star fa-sm "></i>
+              <i class="fa-regular fa-star fa-sm"></i>
+              <i class="fa-regular fa-star fa-sm"></i>
+              <i class="fa-regular fa-star fa-sm"></i>
+              <i class="fa-regular fa-star fa-sm"></i>
+            </div>
+            <span class="text-decoration-line-through text-body-tertiary">$60.00</span>
+            <span class="text-danger">$57.20</span>
+
+          </div>
+          <div class="item">
+            <img src="./assets/img/products/fruit-tea/ut-lobortis-massa.jpg" class="img-fluid" alt="tea">
+            <p class="mt-2">Ut Lobortis Massa</p>
+            <span class="type">Stationery</span>
+            <div class="stars">
+              <i class="fa-regular fa-star fa-sm "></i>
+              <i class="fa-regular fa-star fa-sm"></i>
+              <i class="fa-regular fa-star fa-sm"></i>
+              <i class="fa-regular fa-star fa-sm"></i>
+              <i class="fa-regular fa-star fa-sm"></i>
+            </div>
+            
+            <span class="text-danger">$48.50</span>
+
+          </div>
+          <div class="item">
+            <img src="./assets/img/products/fruit-tea/vestibulum-ante.jpg" class="img-fluid" alt="tea">
+            <p class="mt-2">vestibulum Ante</p>
+            <span class="type">Accessories</span>
+            <div class="stars">
+              <i class="fa-regular fa-star fa-sm "></i>
+              <i class="fa-regular fa-star fa-sm"></i>
+              <i class="fa-regular fa-star fa-sm"></i>
+              <i class="fa-regular fa-star fa-sm"></i>
+              <i class="fa-regular fa-star fa-sm"></i>
+            </div>
+         
+            <span class="text-danger">$35.80</span>
+
+          </div>
+          <div class="item">
+            <img src="./assets/img/products/fruit-tea/vestibulum-non-mi.jpg" class="img-fluid" alt="tea">
+            <p class="mt-2">vestibulum Non Mi</p>
+            <span class="type">Stationery</span>
+            <div class="stars">
+            <i class="fa-solid fa-star fa-sm"></i>
+            <i class="fa-solid fa-star fa-sm"></i>
+            <i class="fa-solid fa-star fa-sm"></i>
+            <i class="fa-solid fa-star fa-sm"></i>
+            <i class="fa-solid fa-star fa-sm"></i>
+            </div>
+            <span class="text-danger">$58.50</span>
+          </div>
+          </div>
+      </div>
+      <div class="swiper-slide">
+        <div class= "FruitJam-items d-flex gap-1">
+          <div class="item">
+            <img src="./assets/img/products/fruit-jam/tesque-nunc-leo.jpg" class="img-fluid" alt="jam">
+            <p class="mt-2">Tesque Nunc Leo</p>
+            <span class="type">Clothes</span>
+            <div class="stars">
+              <i class="fa-solid fa-star fa-sm"></i>
+              <i class="fa-solid fa-star fa-sm"></i>
+              <i class="fa-solid fa-star fa-sm"></i>
+              <i class="fa-solid fa-star fa-sm"></i>
+              <i class="fa-solid fa-star fa-sm"></i>
+            </div>
+            <span class="text-decoration-line-through text-body-tertiary">$59.00</span>
+            <span class="text-danger">$47.20</span>
+
+          </div>
+          <div class="item">
+            <img src="./assets/img/products/fruit-jam/sellus-quam-augue.jpg" class="img-fluid" alt="jam">
+            <p class="mt-2">Sellus Quam Augue</p>
+            <span class="type">Clothes</span>
+            <div class="stars">
+              <i class="fa-regular fa-star fa-sm "></i>
+              <i class="fa-regular fa-star fa-sm"></i>
+              <i class="fa-regular fa-star fa-sm"></i>
+              <i class="fa-regular fa-star fa-sm"></i>
+              <i class="fa-regular fa-star fa-sm"></i>
+            </div>
+            
+            <span class="text-danger">$48.50</span>
+
+          </div>
+          <div class="item">
+            <img src="./assets/img/products/fruit-jam/nullam-feugiat.jpg" class="img-fluid" alt="jam">
+            <p class="mt-2">Nullam Feugiat</p>
+            <span class="type">Home Accessories</span>
+            <div class="stars">
+              <i class="fa-regular fa-star fa-sm "></i>
+              <i class="fa-regular fa-star fa-sm"></i>
+              <i class="fa-regular fa-star fa-sm"></i>
+              <i class="fa-regular fa-star fa-sm"></i>
+              <i class="fa-regular fa-star fa-sm"></i>
+            </div>
+         
+            <span class="text-danger">$35.80</span>
+
+          </div>
+          <div class="item">
+            <img src="./assets/img/products/fruit-jam/vivamus-nunc.jpg" class="img-fluid" alt="jam">
+            <p class="mt-2">Vivamus Nunc</p>
+            <span class="type">Stationery</span>
+            <div class="stars">
+              <i class="fa-regular fa-star fa-sm "></i>
+              <i class="fa-regular fa-star fa-sm"></i>
+              <i class="fa-regular fa-star fa-sm"></i>
+              <i class="fa-regular fa-star fa-sm"></i>
+              <i class="fa-regular fa-star fa-sm"></i>
+            </div>
+            <span class="text-danger">$58.50</span>
+          </div>
+          </div>
+      </div>
+    
+  </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-pagination"></div>
+  </div>
+          </div>
+
+        </section>
+        <section class="saleUp-plantHeaven ">
+          <div class="container ">
+            <div class="salePlant-content d-flex ">
+              <div class="saleUp">
+                <img src="./assets/img/saleUp-plantHeaven/saleUp.jpg" class='img-fluid' alt="saleUp">
+              </div>
+              <div class="plantHeaven">
+                <img src="./assets/img/saleUp-plantHeaven/plantHeaven.jpg" class='img-fluid' alt="plantHeaven">
+              </div>
+
+            </div>
+          </div>
+
+        </section>
+        <section class="clients vh-100 text-center">
+          <div class="clients-content ">
+            <span class="fs-6">Fresh From Our Farm</span>
+            <p class="fs-1 text-black">What's client say ?</p>
+          </div>
+          <div class=" clients-swiper swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="about-client">
+                  <p>This site is an international site and I highly recommend it because it is easy to deal with and because it contains all the products we need. It is a truly luxurious site.</p>
+                  <div class="client d-flex justify-content-center gap-2 ">
+                    <img src="./assets/img/clients/Jane Doe.jpg"    alt="Jane Doe">
+                    <div class="client-info">
+                      <span>Jane Doe</span>
+                      <p>Online Marketer</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="about-client">
+                  <p>This site is an international site and I highly recommend it because it is easy to deal with and because it contains all the products we need. It is a truly luxurious site.</p>
+                  <div class="client d-flex justify-content-center gap-2 ">
+                    <img src="./assets/img/clients/Thamer.jpg"    alt="Jane Doe">
+                    <div class="client-info">
+                      <span>Thamer</span>
+                      <p>Online Marketer</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="about-client">
+                  <p>This site is an international site and I highly recommend it because it is easy to deal with and because it contains all the products we need. It is a truly luxurious site.</p>
+                  <div class="client d-flex justify-content-center gap-2 ">
+                    <img src="./assets/img/clients/Hamza.jpg"    alt="Jane Doe">
+                    <div class="client-info">
+                      <span>Hamza</span>
+                      <p>Online Marketer</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+          </div>
+        
+
+        </section>
+       
+        
+        <section class="blog text-center ">
+
+          <div class="container h-100">
+          <div class="blog-content">
+            <span class="fs-6">Fresh From Our Farm</span>
+            <p class="fs-1 text-black">From The Blog</p>
+          </div>
+          <div class="blog-swiper swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="card-group d-flex gap-3">
+                  <div class="card">
+                    <img src="./assets/img/blog/CrasTempus.jpg"class="card-img-top img-fluid " alt="blog">
+                    <div class="card-body text-start">
+                      <a href="#" class="card-title fs-5">Cras tempus sem a</a>
+                      <p class="card-text">This product is one of the products that has a distinctive characteristic.</p>
+                      <div class="read">
+                     <a href="#">Read more</a> 
+                     <i class="fa-regular fa-circle-right"></i>
+                     </div>
+                    </div>
+                  </div>
+                  <div class="card card-second">
+                    <img src="./assets/img/blog/SedAFacilisis.jpg" class="card-img-top img-fluid " alt="blog">
+                    <div class="card-body text-start">
+                      <a href="#" class="card-title fs-5">Sed a facilisis turpis</a>
+                      <p class="card-text">This product is one of the products that has a distinctive characteristic.</p>
+                      <div class="read">
+                        <a href="#">Read more</a> 
+                        <i class="fa-regular fa-circle-right"></i>
+                        </div> 
+                      </div>             
+                  </div>
+                  <div class="card card-end">
+                    <img src="./assets/img/blog/IntegerSed.jpg" class="card-img-top img-fluid " alt="blog">
+                    <div class="card-body text-start ">
+                      <a href="#" class="card-title fs-5">Integer sed ex massa</a>
+                      <p class="card-text">This product is one of the products that has a distinctive characteristic.</p>
+                      <div class="read">
+                        <a href="#">Read more</a> 
+                        <i class="fa-regular fa-circle-right"></i>
+                        </div> 
+                      </div>                  
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card-group d-flex gap-3">
+                  <div class="card ">
+                    <img src="./assets/img/blog/SedAFacilisis.jpg" class="card-img-top img-fluid " alt="blog">
+                    <div class="card-body text-start">
+                      <a href="#" class="card-title fs-5">Sed a facilisis turpis</a>
+                      <p class="card-text">This product is one of the products that has a distinctive characteristic.</p>
+                      <div class="read">
+                        <a href="#">Read more</a> 
+                        <i class="fa-regular fa-circle-right"></i>
+                        </div> 
+                      </div>              
+                  </div>
+                  <div class="card card-second">
+                    <img src="./assets/img/blog/CrasSodales.jpg" class="card-img-top img-fluid " alt="blog">
+                    <div class="card-body text-start">
+                      <a href="#" class="card-title fs-5">Praesent ultrices volutpat est</a>
+                      <p class="card-text">This product is one of the products that has a distinctive characteristic.</p>
+                      <div class="read">
+                        <a href="#">Read more</a> 
+                        <i class="fa-regular fa-circle-right"></i>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="card card-end ">
+                    <img src="./assets/img/blog/IntegerDolor.jpg" class="card-img-top img-fluid " alt="blog">
+                    <div class="card-body text-start">
+                      <a href="#" class="card-title fs-5">Integer dolor mauris ultricies</a>
+                      <p class="card-text">This product is one of the products that has a distinctive characteristic.</p>
+                      <div class="read">
+                        <a href="#">Read more</a> 
+                        <i class="fa-regular fa-circle-right"></i>
+                        </div> 
+                      </div>                  
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card-group d-flex gap-3">
+                  <div class="card ">
+                    <img src="./assets/img/blog/InSed.jpg" class="card-img-top img-fluid " alt="blog">
+                    <div class="card-body text-start">
+                      <a href="#" class="card-title fs-5">In sed nibh risus</a>
+                      <p class="card-text">This product is one of the products that has a distinctive characteristic.</p>
+                      <div class="read">
+                        <a href="#">Read more</a> 
+                        <i class="fa-regular fa-circle-right"></i>
+                        </div> 
+                      </div>                  
+                  </div>
+                  <div class="card card-second">
+                    <img src="./assets/img/blog/CrasTempus.jpg" class="card-img-top img-fluid " alt="blog">
+                    <div class="card-body text-start">
+                      <a href="#" class="card-title fs-5">Cras tempus sem a</a>
+                      <p class="card-text">This product is one of the products that has a distinctive characteristic.</p>
+                      <div class="read">
+                        <a href="#">Read more</a> 
+                        <i class="fa-regular fa-circle-right"></i>
+                        </div>  
+                      </div>                 
+                  </div>
+                  <div class="card card-end ">
+                    <img src="./assets/img/blog/IntegerSed.jpg" class="card-img-top img-fluid " alt="blog">
+                    <div class="card-body text-start">
+                      <a href="#" class="card-title fs-5">Integer sed ex massa</a>
+                      <p class="card-text">This product is one of the products that has a distinctive characteristic.</p>
+                      <div class="read">
+                        <a href="#">Read more</a> 
+                        <i class="fa-regular fa-circle-right"></i>
+                        </div>  
+                      </div>                 
+                  </div>
+                </div>
+              </div>
+     
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+          </div>
+        
+
+        </div>
+        </section>
+      
+       <section class="retroge vh-50  mb-5">
+        <div class="container">
+          <div class="retroge-swiper swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="retroge-group d-flex gap-1 ">
+                  <div>
+                  <img src="./assets/img/retroge/retroge.jpg"class='img-fluid' alt="retroge">
+                </div>
+                <div>
+                  <img src="./assets/img/retroge/retroge.jpg"class='img-fluid' alt="retroge">
+                </div>
+                <div>
+                  <img src="./assets/img/retroge/retroge.jpg"class='img-fluid' alt="retroge">
+                </div>
+                <div>
+                  <img src="./assets/img/retroge/retroge.jpg"class='img-fluid' alt="retroge">
+                </div>
+                <div>
+                  <img src="./assets/img/retroge/retroge.jpg"class='img-fluid' alt="retroge">
+                </div>
+                <div>
+                  <img src="./assets/img/retroge/retroge.jpg"class='img-fluid' alt="retroge">
+                </div>
+                <div>
+                  <img src="./assets/img/retroge/retroge.jpg"class='img-fluid' alt="retroge">
+                </div>
+               
+              </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="retroge-group d-flex gap-1 ">
+                  
+                  <img src="./assets/img/retroge/retroge.jpg"class='img-fluid' alt="retroge">
+                  <img src="./assets/img/retroge/retroge.jpg"class='img-fluid' alt="retroge">
+                  <img src="./assets/img/retroge/retroge.jpg"class='img-fluid' alt="retroge">
+                  <img src="./assets/img/retroge/retroge.jpg"class='img-fluid' alt="retroge">
+                  <img src="./assets/img/retroge/retroge.jpg"class='img-fluid' alt="retroge">
+                  <img src="./assets/img/retroge/retroge.jpg"class='img-fluid' alt="retroge">
+                  <img src="./assets/img/retroge/retroge.jpg"class='img-fluid' alt="retroge">
+               
+              </div>
+              </div>
+           
+             
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+           
+          </div>
+        
+        </div>
+       </section>
+     
+
+        
+        
+   
+</main>
+<footer class="info">
+        <div class="container">
+          <div class="row ">
+          <div class="contactUs d-flex flex-column  col-2">
+          <p><strong>Contact us</strong></p>
+          <span>Contact us to help you and get everything you want</span>
+          <p class="mt-4">Address: 123 Fake Street, New York</p>
+          <p>Phone: (08) 8827 633354</p>
+          <p>Mail: contact@yoursite.com</p>
+          <p>Openning: 8:00 - 19:00, Mon - Sat</p>
+        </div>
+        <div class="information  d-flex flex-column  col-2 ">
+          <p><strong>Information</strong></p>
+          <p><a>About us</a></p>
+         <p> <a>Legal Notice</a></p>
+           <p><a>Addresses</a></p>
+           <p><a>Order</a></p>
+            <p> <a>Payment</a></p>
+            <p><a>Suppliers</a></p>
+            <p><a>Forgot Password</a></p>
+        </div>
+        <div class="MyAccount  d-flex flex-column  col-2 ">
+          <p> <strong>My Account</strong></p>
+          <p><a>Delivery</a></p>
+          <p><a>Legal Notice</a></p>
+          <p><a>About us</a></p>
+          <p><a>Prices drop</a></p>
+           <p><a>New products</a></p>
+            <p> <a>Best sales</a></p>
+           <p><a>Return Policy</a></p>
+        </div>
+        <div class="Company  d-flex flex-column  col-2">
+          <p> <strong>Company</strong></p>
+          <p> <a>My account</a></p>
+          <p><a>My Cart</a></p>
+          <p><a>Identity</a></p>
+           <p><a>Order</a></p>
+           <p><a>Contact us</a></p>
+           <p><a>Addresses</a></p>
+          <p><a>My Orders</a></p>
+        </div>
+        <div class="instagram col-4 ">
+          <p><strong>Instagram</strong></p>
+         
+          <div class=" insta-imgs d-flex flex-wrap gap-2 text-center">
+              
+          <div class=" insta-img ">
+          <img src="./assets/img/footer/insta1.jpg"  alt="insta">
+        </div>
+        <div class=" insta-img ">
+          <img src="./assets/img/footer/insta2.jpg"  alt="insta">
+        </div>
+        <div class=" insta-img ">
+          <img src="./assets/img/footer/insta3.jpg"  alt="insta">
+        </div>
+        <div class=" insta-img ">
+          <img src="./assets/img/footer/insta4.jpg" alt="insta">
+        </div>
+        <div class=" insta-img ">
+          <img src="./assets/img/footer/insta5.jpg"  alt="insta">
+        </div>
+        <div class="insta-img ">
+          <img src="./assets/img/footer/insta6.jpg" alt="insta">
+        </div>
+        </div>
+        </div>
+        
+      </div>
+      <hr class="mt-5" />
+      <div class="NewsletterSign-Up">
+        <div class="row">
+        <div class="signUp col-4">
+          <p><strong> Newsletter sign - up</strong></p>
+          <span>Subscribe to our latest news to be updated</span>
+        </div>
+        <div class="email col-4">
+          <form>
+            <input type="email" name="email" placeholder="Your email address">
+            <button>Subscribe</button>
+          </form>
+        </div>
+        <div class="follow col-4 d-flex gap-3">
+          <p><strong>Follow Us</strong></p>
+          <div class="follow-icons d-flex gap-2">
+          <div class="iconF border rounded-circle">
+            <i class="fa-brands fa-facebook-f fa-sm "></i>
+          </div>
+          <div class="iconF border rounded-circle">
+            <i class="fa-brands fa-x-twitter fa-sm"></i>
+          </div>
+          <div class="iconF border rounded-circle">
+            <i class="fa-brands fa-google-plus-g fa-sm"></i>
+          </div>
+          <div class="iconF border rounded-circle">
+            <i class="fa-brands fa-instagram fa-sm"></i>
+          </div>
+          
+
+          </div>
+        </div>
+        </div>
+
+
+
+      </div>
+      </div>
+      
+</footer>
+<div class="alert d-flex justify-content-center align-items-center  ">
+    <div class="alert-content text-center d-flex flex-column gap-3 position-relative "data-aos="fade-down"data-aos-easing="linear"data-aos-duration="500">
+      <img src="./assets/img/alert/alert.jpg" class="img-fluid" alt="alert">
+      <strong>NEWSLETTER</strong>
+      <p>Sign up to our newsletter and get exclusive deals you won find any where else straight to your inbox!</p>
+      <div>
+      <form class="email mb-4">
+        <input type="email" name="email" placeholder="Enter Email Address Here" class="text-center" />
+      </form>
+    
+        <button >SUBSCRIBE</button>
+        <form class=" mt-4 text-end mb-3">
+       
+        <input type="checkbox" name="check"/>
+        <span>Don't show this popup again</span>
+        </form>
+        
+        <i class="fa-solid fa-xmark close"></i>
+
+    </div>
+  </div>
+</div>
+<div class="account d-flex  justify-content-end d-none"  >
+<div class="sign-in" >
+  <form class="d-flex flex-column w-100 gap-2 ">
+    <p>sign in</p>
+    <hr />
+
+    <label>Email</label>
+    <input type="email" name="email" />
+    <label>password</label>
+    <input type="password" name="password" />
+    <input type="submit" value="Sign In" class="mt-3 submit"></input>
+    <a href="#">Forgot your password?</a>
+  </form>
+  <i class="fa-solid fa-xmark fa-sm close "></i>
+
+</div>
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <script src="./assets/js/main.js"></script>
+</body>
+</html>
