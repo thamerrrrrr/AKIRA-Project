@@ -55,15 +55,12 @@ a{
   }
 }
 
- @media screen and (max-width:992px){
+ @media screen and (max-width:995px){
     
     .cart::after{
         content: '0';
         display:none;
       }
-     
-
-
  }
  @media screen and (max-width:543px){
     .navbar .nav-icons{
