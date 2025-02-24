@@ -70,6 +70,7 @@ document.querySelector('.list .close').addEventListener('click', function(){
   document.querySelector('.clients-swiper').classList.remove('position-fixed');
   document.querySelector('.blog-swiper ').classList.remove('position-fixed');
   document.querySelector('.retroge-swiper ').classList.remove('position-fixed');
+  document.querySelector(' .header .carousel-item.active').style.display = 'block';
   document.querySelector('.header .carousel-item').style.visibility = 'visible'; 
   document.querySelector('.collection .card').style.visibility = 'visible';
   document.querySelector('.nav-icons').classList.remove('d-none');
