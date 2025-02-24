@@ -701,11 +701,15 @@ color:white;
     animation: mov-list 0.25s ease-in-out;
    
 }
-.list .list-content p{
+.list .list-content  p{
     color:var(--mainColor);
     font-size: 20px;
+    margin-top: 15px;
 }
-.list .list-content li:hover{
+.list .list-content ul li a{
+    color:#181818;
+}
+.list .list-content ul li a:hover{
     color:var(--mainColor);
     cursor: pointer;
 }
