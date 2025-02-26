@@ -67,7 +67,7 @@ a{
         width:35%;
     }
     .navbar .nav-icons .heart{
-        visibility: hidden;
+       display:none;
     }
     .navbar .nav-icons .cart-price{
        display:none;
