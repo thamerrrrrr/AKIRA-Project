@@ -69,12 +69,10 @@ a{
     .navbar .nav-icons .heart{
         visibility: hidden;
     }
-    .navbar .nav-icons .cart{
-        visibility: hidden;
+    .navbar .nav-icons .cart-price{
+       display:none;
     }
-    .navbar .nav-icons .price{
-        visibility: hidden;
-    }
+   
  }
 
  /*navbar*/
